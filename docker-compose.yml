@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+ app:
+  image: learning-docker/react:v1 
+  ports:
+   - "3000:80"                    # port 3000 on locahost is port 80 on docker
+  restart: unless-stopped         # start alltime unless you stop directly
