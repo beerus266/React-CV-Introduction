@@ -8,7 +8,7 @@ class Footer extends React.Component {
                 <section className="elementor-section">
                     <div className="content-footer-wrapper">
                         <div className="footer-wrapper">
-                            <div className="content-wrapper">
+                            <div className="content-wrapper footer-color">
                                 <div className="widget-wrap">
                                     <div className="copyright-wrap">
                                         © 2021 Copy Right HaiNV266
@@ -20,10 +20,10 @@ class Footer extends React.Component {
                                                     <a className="icon" href="#">
                                                         <i className="fa fa-twitter" style={{fontSize:30}}></i>  
                                                     </a>
-                                                    <a className="icon" href="https://www.facebook.com/nguyenvanhai.zozin">
+                                                    <a className="icon" href="https://www.facebook.com/nguyenvanhai.zozin" target="_blank">
                                                         <i className="fa fa-facebook-square" style={{fontSize:30}}></i>
                                                     </a>
-                                                    <a className="icon" href="https://github.com/beerus266">
+                                                    <a className="icon" href="https://github.com/beerus266" target="_blank">
                                                         <i className="fa fa-github" style={{fontSize:30}}></i>
                                                     </a>
                                                 </div>

@@ -1,6 +1,9 @@
 .elementor * {
     box-sizing: border-box;
 }
+h2 {
+    margin-bottom: 0px;
+}
 
 .elementor-section-container {
     display: flex;
@@ -54,16 +57,30 @@ section.elementor-section{
     margin: 5px;
 }
 .elementor-column-50-wrapper > h1 {
-    font-size: 80px;
+    margin-bottom: 0px;
+    font-size: 50px;
     line-height: 85px;
     letter-spacing: -2.5px;
     font-family: 'Alata',sans-serif;
+}
+.elementor-column-50-wrapper > p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.elementor-column-50-wrapper > .profile {
+    margin: 70px 0;
+}
+.profile > div {
+    margin-top: 5px;
+}
+.profile i {
+    color: #828282;
 }
 .elementor-column-50  h3 {
     font-size: 36px;
 }
 .elementor-column-50  h5 {
-    font-size: 26px;
+    font-size: 20px;
 }
 .elementor-image-wrapper {
     padding: 75px 0;
@@ -115,7 +132,7 @@ section.elementor-section{
 }
 /* -----------------------Button---------------------- */
 .elementor-button-container {
-    margin: 30px 0 0;
+    margin: 30px 0;
 }
 
 a.coco-button-white {
@@ -140,7 +157,7 @@ a.coco-button-white::before {
     border: 2px solid #fff;
     background:  0 0;
     border-radius: 90%;
-    top: -8px;
+    top: -13px;
     position: absolute;
     transition: .3s;
 }
@@ -166,7 +183,7 @@ a.coco-button-black::before {
     border: 2px solid #000;
     background:  0 0;
     border-radius: 90%;
-    top: -8px;
+    top: -13px;
     position: absolute;
     transition: .3s;
 }
@@ -174,7 +191,7 @@ a:hover::before {
     width: 200px;
     height: 40px;
     border-radius: 25px;
-    top: -14px;
+    top: -17px;
 }
 a:hover span {
     margin-left: 40px;
@@ -201,12 +218,23 @@ a:hover span {
     width: 300px;
     max-width: 300px;
 }
+.footer-color {
+    background-color: #ebebeb;
+}
 .table-container {
     margin-top: 50px;
     width: 100%;
 }
-.header-table {
-
+.experience-content h5{
+    margin-bottom: 0px;
+}
+.experience-content p {
+    max-width: 400px;
+}
+.experience-spacer {
+    width: 100%;
+    height: 50px;
+    border-left: 4px white solid;
 }
 .header-table > div {
     color: #b1b1b1;

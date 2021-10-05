@@ -21,32 +21,35 @@ class SectionStudy extends React.Component {
                         <div className="elementor-row">
                             <div className="elementor-column-50">
                                 <div className="elementor-column-50-wrapper">
-                                    <h3 className="">Design</h3>
+                                    <h3 className="">School</h3>
                                     <div className="elementor-spacer-container">
                                         <div className="elementor-spacer">
                                             <div className="elementor-spacer-inner"></div>
                                         </div>
                                     </div>
-                                    {/* <div className="elementor-number-container">
-                                        <p className="coco-gradient-text">1</p>
-                                    </div> */}
-                                    <h5>Something about my school</h5>
-                                    <p> Name school, project</p>
-                                    <MoreButton colorClass="coco-button-black" labelButton="MORE DETAIL"/>
+                                    <h5>Hanoi University of Science and Technology</h5>
+                                    <ul>
+                                        <li>Major: Information Technology</li>
+                                        <li>CPA: 2.85</li>
+                                    </ul>
                                 </div>
+                                <MoreButton colorClass="coco-button-black" labelButton="MORE DETAIL"/>
                             </div>
                             <div className="elementor-column-50">
                                 <div className="elementor-column-50-wrapper">
-                                    <h3 className="">Code</h3>
+                                    <h3 className="">Online cources</h3>
                                     <div className="elementor-spacer-container">
                                         <div className="elementor-spacer">
                                             <div className="elementor-spacer-inner"></div>
                                         </div>
                                     </div>
-                                    <h5>Graduation </h5>
-                                    <p>Degree, CPA, English Skill</p>
-                                    <MoreButton colorClass="coco-button-black" labelButton="MORE DETAIL"/>
+                                    <h5>Many cources on Ucademy, Courcesa ...</h5>
+                                    <ul>
+                                        <li>Deep Learning</li>
+                                        <li>Website Developer</li>
+                                    </ul>
                                 </div>
+                                <MoreButton colorClass="coco-button-black" labelButton="MORE DETAIL"/>
                             </div>
                         </div>
                     </div>

@@ -24,6 +24,9 @@
     width: 50%;
     margin-left: 20px;
 }
+.elementor-column-50:nth-child(2) {
+    padding-left: 50px;
+}
 .elementor-column-wrapper {
     width: 100%;
 }
@@ -37,6 +40,7 @@
 }
 .elementor-column-50  h5 {
     font-size: 26px;
+    max-width: 300px;
 }
 
 /* ------------------- Section Skill ------------------------- */
